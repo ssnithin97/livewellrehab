@@ -1,0 +1,25 @@
+.all{
+  background-color: white;
+  text-align: left;
+}
+h1,h3,h2{
+  font-family: sans-serif;
+}
+table{
+  font-family: sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 2px solid #dddddd;
+  text-align: left;
+  padding: 6px;
+}
+th {
+  background-color: green;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
